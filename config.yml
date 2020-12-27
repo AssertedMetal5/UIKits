@@ -1,0 +1,39 @@
+Version: '1.2'
+
+## /kits chest title ##
+
+# Main title #
+KitsTitle: 'Kits'
+
+# Preview title #
+KitsPreviewTitle: 'Kit {name} - Preview'
+
+# Kits edit title #
+KitsEditTitle: 'Kit {name} - Edit'
+
+### {cooldown} to get kit cooldown, {name} to get the kit name ###
+## Kit lore layout ##
+
+UILayoutBefore:
+- '&f--------------------'
+- '&5Cooldown: {cooldown}'
+- '&aLeft click to choose'
+- '&aRight click to preview'
+
+UILayoutAfter:
+- '&5Cooldown: {cooldown}'
+- '&f--------------------'
+- '&aRight click to preview'
+
+UILayoutAdmin:
+- '&f--------------------'
+- '&aMiddle click to edit'
+
+### 20 = 1 Second ###
+## Updates the /kits ##
+
+RefreshRate: 20
+
+## Check if there is a update ##
+
+UpdateChecker: true
