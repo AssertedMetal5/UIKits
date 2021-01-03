@@ -1,6 +1,5 @@
-Version: '1.4'
-
-## /kits chest title ##
+# Don't change this, this allows the config to update #
+Version: '1.4.1'
 
 # Main title #
 KitsTitle: 'Kits'
@@ -8,8 +7,11 @@ KitsTitle: 'Kits'
 # Preview title #
 KitsPreviewTitle: 'Kit {name} - Preview'
 
-# Kits edit title #
-KitsEditTitle: 'Kit {name} - Edit'
+# Kits edit items title #
+KitsEditItems: 'Edit {name} - Items'
+
+# Kits main edit title #
+EditingAdminUI: 'Edit {name}'
 
 ### {cooldown} to get kit cooldown, {name} to get the kit name ###
 ## Kit lore layout ##
@@ -21,8 +23,8 @@ UILayoutBefore:
 - '&aRight click to preview'
 
 UILayoutAfter:
-- '&5Cooldown: {cooldown}'
 - '&f--------------------'
+- '&5Cooldown: {cooldown}'
 - '&aRight click to preview'
 
 UILayoutAdmin:
