@@ -1,5 +1,5 @@
 # Don't change this, this allows the config to update #
-Version: '1.4.1'
+Version: '1.5'
 
 # Main title #
 KitsTitle: 'Kits'
@@ -12,6 +12,9 @@ KitsEditItems: 'Edit {name} - Items'
 
 # Kits main edit title #
 EditingAdminUI: 'Edit {name}'
+
+# Starting Kit #
+StartingKit: 'Starter'
 
 ### {cooldown} to get kit cooldown, {name} to get the kit name ###
 ## Kit lore layout ##
@@ -27,6 +30,11 @@ UILayoutAfter:
 - '&5Cooldown: {cooldown}'
 - '&aRight click to preview'
 
+# Buyable Kits needs to be enabled to see this #
+UIMoneyLayout:
+- '&f--------------------'
+- '&6Cost: &c{cost}'
+
 UILayoutAdmin:
 - '&f--------------------'
 - '&aMiddle click to edit'
@@ -35,6 +43,27 @@ UILayoutAdmin:
 ## Updates the /kits ##
 
 RefreshRate: 20
+
+### Buyable Kits ###
+
+# Enable this for buyable kits #
+BuyableKits: false
+
+# Enable this if you want to use vault (Built in money won't be useable) #
+Vault: false
+
+# Get money from killed mobs (Optional) #
+MoneyFromMobs: false
+
+# Money Layout #
+MoneyLayout: '${money}'
+
+# Default Money (Vault need to be disabled) #
+StartingMoney: 10
+
+## Money messages (Buyable Kits need to be enabled) #
+MoneyTaken: '&e{cost} &ahas been taken from your account.'
+MoneyAdded: '&e{cost} &ahas been added to your account.'
 
 ## Check if there is a update ##
 
