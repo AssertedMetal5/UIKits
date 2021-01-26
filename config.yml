@@ -1,5 +1,9 @@
 # Don't change this, this allows the config to update #
-Version: '1.5'
+Version: '1.6'
+
+## Cooldown Format for {cooldown} ##
+# {w} = weeks, {d} = days, {h} = hours, {m} = minutes, {s} = seconds #
+CooldownFormat: '{w}w {d}d {h}h {m}m {s}s'
 
 # Main title #
 KitsTitle: 'Kits'
